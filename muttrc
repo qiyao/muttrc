@@ -1,0 +1,27 @@
+set ssl_starttls=yes
+set ssl_force_tls=yes
+set imap_user = 'qiyaoltc@gmail.com'
+set from='qiyaoltc@gmail.com'
+set realname='Yao Qi'
+set folder = imaps://imap.gmail.com/
+set spoolfile = imaps://imap.gmail.com/INBOX
+set postponed="imaps://imap.gmail.com/[Gmail]/Drafts"
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+
+
+set smtp_url = 'smtps://qiyaoltc@smtp.gmail.com'
+set record=""
+
+#set trash="imaps://imap.gmail.com/[Gmail]/Trash"
+
+set move = no
+set imap_keepalive = 900
+
+
+set signature="~/.mutt/signature"
+
+#
+set sort_aux=last-date-received       
+set sort=threads
