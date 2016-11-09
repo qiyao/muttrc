@@ -25,3 +25,6 @@ set signature="~/.mutt/signature"
 #
 set sort_aux=last-date-received       
 set sort=threads
+
+
+source ~/.mutt/color
