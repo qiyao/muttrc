@@ -18,7 +18,8 @@ set record=""
 
 set move = no
 set imap_keepalive = 900
-
+set imap_idle
+set mail_check = 900
 
 set signature="~/.mutt/signature"
 
@@ -26,5 +27,5 @@ set signature="~/.mutt/signature"
 set sort_aux=last-date-received       
 set sort=threads
 
-
+set editor="vim -c 'set spell spelllang=en'"
 source ~/.mutt/color
