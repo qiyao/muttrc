@@ -28,4 +28,8 @@ set sort_aux=last-date-received
 set sort=threads
 
 set editor="vim -c 'set spell spelllang=en'"
+
+set date_format="%y-%m-%d %T"
+set index_format="%2C | %Z [%d] %-30.30F (%-4.4c) %s"
+
 source ~/.mutt/color
