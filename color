@@ -94,3 +94,9 @@ color body red default "([a-z][a-z0-9+-]*://(((([a-z0-9_.!~*'();:&=+$,-]|%[0-9a-
 #folder-hook . "color status J_black J_status "
 #folder-hook gmail/inbox "color status J_black yellow "
 #folder-hook gmail/important "color status J_black yellow "
+# git patches
+color body brightred default "^-.*"
+color body brightgreen default "^[+].*"
+color body brightwhite default "^diff --git.*"
+color body brightwhite default "^index [a-f0-9].*"
+color body brightyellow default "^@@.*"
